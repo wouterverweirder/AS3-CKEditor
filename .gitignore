@@ -1,0 +1,6 @@
+*.actionscriptProperties
+*.flexProperties
+*.flexLibProperties
+*.project
+*.settings
+*/bin-debug

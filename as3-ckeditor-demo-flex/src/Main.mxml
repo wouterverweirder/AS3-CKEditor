@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009" 
+			   xmlns:s="library://ns.adobe.com/flex/spark" 
+			   xmlns:mx="library://ns.adobe.com/flex/mx"
+			   xmlns:ckeditor="be.aboutme.as3.ckeditor.*">
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+	
+	<s:layout>
+		<s:HorizontalLayout />
+	</s:layout>
+	
+	<s:VGroup width="100%" height="100%">
+		<ckeditor:CKEditor id="editor1" width="100%" height="100%">
+			<ckeditor:htmlText>
+				<![CDATA[
+				<p>This is <strong>a test<strong></p>
+				<p>Does this work properly?</p>
+				]]>
+			</ckeditor:htmlText>
+		</ckeditor:CKEditor>
+		<s:TextArea width="100%" height="200" text="{editor1.htmlText}" />
+	</s:VGroup>
+	
+	<s:VGroup width="100%" height="100%">
+		<ckeditor:CKEditor id="editor2" width="100%" height="100%">
+			<ckeditor:htmlText>
+				<![CDATA[
+				<p>Another cool editor!</p>
+				]]>
+			</ckeditor:htmlText>
+		</ckeditor:CKEditor>
+		<s:TextArea width="100%" height="200" text="{editor2.htmlText}" />
+	</s:VGroup>
+	
+</s:Application>
