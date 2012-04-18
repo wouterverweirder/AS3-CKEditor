@@ -2,11 +2,7 @@
  *  AS3 CKEditor wrapper
  *
  *  Copyright (c) 2012 Wouter Verweirder. All rights reserved.
- *
- *  It uses UniMotion on the native side:
- *  UniMotion - Unified Motion detection for Apple portables.
- *  Copyright (c) 2006 Lincoln Ramsay. All rights reserved.
- *
+ * 
  *  This library is free software; you can redistribute it and/or
  *  modify it under the terms of the GNU Lesser General Public
  *  License version 2.1 as published by the Free Software Foundation.
